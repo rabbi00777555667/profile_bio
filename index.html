@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Your Name - Links</title>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+	<style>
+		body {
+			font-family: 'Roboto', sans-serif;
+			background-color: #1a1a1a;
+			color: #ffffff;
+			margin: 0;
+			padding: 20px;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			min-height: 100vh;
+			text-align: center;
+		}
+
+		.profile-pic {
+			border-radius: 50%;
+			width: 120px;
+			height: 120px;
+			object-fit: cover;
+			margin-bottom: 15px;
+			border: 4px solid #ffffff;
+		}
+
+		h1 {
+			margin: 10px 0;
+			font-size: 22px;
+		}
+
+		p {
+			font-size: 14px;
+			margin: 5px 0 20px;
+		}
+
+		.link-container {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			flex-direction: column;
+			width: 100%;
+			max-width: 400px;
+			margin-bottom: 30px;
+		}
+
+		.link-container div {
+			height: 50px;
+			justify-content: start;
+			align-items: center;
+			display: inline-flex;
+			width: 90%;
+			background-color: #333333;
+
+			padding: 5px;
+			margin: 10px;
+			border-radius: 8px;
+			transition: background-color 0.3s ease, transform 0.3s ease;
+		}
+
+		.link-container a:hover {
+			background-color: #444444;
+			transform: scale(1.05);
+		}
+
+		.link-container a i {
+			margin-right: 10px;
+		}
+
+		.footer {
+			font-size: 12px;
+			color: #aaaaaa;
+		}
+
+		a {
+			font-size: 1.5rem;
+			text-decoration: none;
+			text-decoration: none;
+			color: #ffffff;
+			margin-left: 25%;
+		}
+		i.fab,.fas{
+			font-size: 1.5rem;
+			height:29px;
+			width:29px;
+		}
+		.fa-whatsapp{
+			font-size: 1.7rem;
+		}
+		</style>
+</head>
+
+<body>
+
+	<img src="profile.png" alt="Profile Picture" class="profile-pic">
+	<h1>Anime Wave</h1>
+	<p>Welcome to my links page! Check out my profiles below.</p>
+
+	<div class="link-container">
+		<div> <a href="https://youtube.com" target="_blank"><i class="fab fa-youtube"></i>YouTube</a>
+		</div>
+		<div> <a href="https://telegram.org" target="_blank"><i class="fab fa-telegram-plane"></i>Telegram</a>
+		</div>
+		<div> <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i>Facebook</a>
+		</div>
+		<div> <a href="https://tiktok.com" target="_blank"><i class="fab fa-tiktok"></i>TikTok</a>
+		</div>
+		<div> <a href="https://yourwebsite.com" target="_blank"><i class="fas fa-globe"></i>Website</a>
+		</div>
+		<div> <a href="https://wa.me/123456789" target="_blank"><i class="fab fa-whatsapp"></i>WhatsApp</a>
+		</div>
+		<div <a href="mailto:youremail@example.com" target="_blank"><i class="fas fa-envelope"></i>Email Me</a>
+		</div>
+	</div>
+
+	<div class="footer">
+		<p>&copy; 2024 Your Name. All rights reserved.</p>
+	</div>
+
+</body>
+
+</html>
